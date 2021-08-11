@@ -4,7 +4,11 @@ background-color: #f77f00;
 color: #2a9d8f;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
+padding: 3%;
 
+}
+div {
+    border: 1px solid black;
 }
 
 h1 {
@@ -14,6 +18,13 @@ h1 {
 
 h2{
     color: #118ab2;
+    padding-left: 10px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
 }
 
 p i{
@@ -33,6 +44,10 @@ a:hover{
 
 img{
     border: 5px solid #2a9d8f;
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: #2a9d8f;
 }
 
 img:hover{
@@ -54,4 +69,19 @@ img:hover{
     vertical-align: top;
     text-align: center;
     padding-right: 10%;
+}
+
+.description{
+    height: 300px;
+    padding-left: 320px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.name{
+    text-align: center;
+}
+
+ol li:nth-child(even){
+    background-color: #00ffff;
 }
