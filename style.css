@@ -52,13 +52,13 @@ img:hover{
     border: 5px solid white;
 }
 
-#skillsboldlink {
+.skillsboldlink {
     font-weight: bold;
     color: #e9c46a;
     font-size: 1.1em;
 }
 
-#skillsboldlink:hover {
+.skillsboldlink:hover {
     color: white;
 }
 
