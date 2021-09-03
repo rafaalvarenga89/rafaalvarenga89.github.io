@@ -83,3 +83,7 @@ img:hover{
 ol li:nth-child(even){
     background-color: #00ffff;
 }
+
+#competencias {
+    text-align: justify;
+}

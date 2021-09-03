@@ -1,1 +1,4 @@
-document.getElementById("unixLi").innerText = "Estes são os meus conhecimentos sobre Unix";
+document.getElementById("unixLi").innerHTML = "<strong>Unix & Bash:</strong> Utilização de comandos do terminal Unix dentre os principais a listagem de arquivos, criação, renomeação, movimento, remoção de arquivos ou diretórios. Comandos de Input e output. Permissões de leitura, escrita e manipulação de arquivos e diretórios."
+
+document.getElementById("gitLi").innerHTML = 
+"<strong>GitHub:</strong> Criação, clonagem e manipulação de arquivos no repositório GitHub. Criação de Pull Request e fusão de versionamento de projetos. <strong>Git: </strong>Inspeção de repositórios com o 'git status'. Rastrear arquivos novos com o 'git add .'. Fazendo Commit das alterações com o 'git commit -m'. Enviando as alterações para o GitHub através do comando 'git push'."
